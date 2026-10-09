@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yashasvee Patel — first-year B.Tech Computer Science student exploring programming, web development, and software engineering.">
+    <title>Yashasvee | CSE Student & Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Minimalist Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <span class="loader-text">YASHASVEE</span>
+            <div class="loader-line"></div>
+        </div>
+    </div>
+
+    <!-- Scroll progress indicator: additive polish; original animations remain intact. -->
+    <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+    <!-- Liquid Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Ethereal Aurora Background -->
+    <div class="noise"></div>
+    <div class="aurora-container">
+        <div class="aurora blob-1"></div>
+        <div class="aurora blob-2"></div>
+        <div class="aurora blob-3"></div>
+        <div class="aurora blob-4"></div>
+        <div class="bg-vignette"></div>
+    </div>
+
+    <header class="header">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a href="#hero" class="logo" aria-label="Yashasvee, back to home">Yashasvee<span class="dot">.</span></a>
+            <button class="nav-menu-toggle" id="nav-menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="primary-navigation">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#learning" class="nav-link">Learning</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><button id="theme-toggle" class="theme-toggle interactive-hover" type="button" aria-label="Switch to light mode" title="Switch to light mode"><i class="fas fa-sun" aria-hidden="true"></i><span id="theme-toggle-label">Light mode</span></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero section">
+            <div class="hero-content reveal">
+                <div class="status-badge">
+                    <span class="pulse-dot"></span> B.Tech CSE | 1st Year
+                </div>
+                <h1>Hi, I'm Yashasvee. <br>I'm exploring <span class="animated-gradient-text typing-text"></span><span class="cursor">|</span></h1>
+                <p class="subtitle">A passionate Computer Science student dedicated to bridging the gap between elegant design and efficient engineering. I am building my foundation one line of code at a time.</p>
+
+                <div class="hero-actions">
+                    <a href="#about" class="btn btn-primary interactive-hover">Discover My Journey</a>
+                    <a href="https://github.com/Yashasvee28" target="_blank" rel="noopener noreferrer" class="btn btn-social interactive-hover"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/yashasvee-patel-117b9a42b/" target="_blank" rel="noopener noreferrer" class="btn btn-social interactive-hover"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+
+            <!-- Decorative profile panel: additional layout content; original animations stay untouched. -->
+            <aside class="hero-visual" aria-label="Developer profile visual">
+                <div class="hero-visual-top">
+                    <span class="visual-index">FIELD NOTES / 001</span>
+                    <span class="visual-live"><span aria-hidden="true"></span> CURIOUS BY DEFAULT</span>
+                </div>
+                <div class="orbit-stage" aria-hidden="true">
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+                    <div class="orbit orbit-three"></div>
+                    <div class="orbit-core"><i class="fas fa-code"></i></div>
+                    <span class="orbit-label orbit-label-html">HTML</span>
+                    <span class="orbit-label orbit-label-css">CSS</span>
+                    <span class="orbit-label orbit-label-python">PY</span>
+                </div>
+                <div class="hero-visual-bottom">
+                    <div>
+                        <span class="visual-label">CURRENT FOCUS</span>
+                        <p>Structure <span>·</span> Style <span>·</span> Logic</p>
+                    </div>
+                    <span class="visual-year">2026 <b>—</b> 2030</span>
+                </div>
+            </aside>
+        </section>
+
+        <!-- INFINITE TECH MARQUEE -->
+        <div class="marquee-wrapper">
+            <div class="marquee-content">
+                <span>HTML</span><span class="dot-separator">✦</span>
+                <span>CSS</span><span class="dot-separator">✦</span>
+                <span>PYTHON</span><span class="dot-separator">✦</span>
+                <span>GIT &amp; GITHUB</span><span class="dot-separator">✦</span>
+                <span>LEARNING BY BUILDING</span><span class="dot-separator">✦</span>
+                <span>HTML</span><span class="dot-separator">✦</span>
+                <span>CSS</span><span class="dot-separator">✦</span>
+                <span>PYTHON</span><span class="dot-separator">✦</span>
+                <span>GIT &amp; GITHUB</span><span class="dot-separator">✦</span>
+                <span>LEARNING BY BUILDING</span><span class="dot-separator">✦</span>
+            </div>
+        </div>
+
+        <!-- ABOUT SECTION (NEW) -->
+        <section id="about" class="about section reveal">
+            <h2 class="section-title">Behind the Code</h2>
+            <div class="glass-panel about-panel float-element">
+                <div class="about-text">
+                    <h3>Curiosity driven, logically grounded.</h3>
+                    <p>I am a first-year B.Tech Computer Science student with an insatiable curiosity for how digital systems operate under the hood. While my formal academic journey has just begun, my passion for technology drives me to constantly experiment, build, and learn.</p>
+                    <p>I believe that the best way to master computer science is by getting your hands dirty—breaking things to understand them, writing inefficient code to appreciate optimization, and constantly pushing personal boundaries. I am currently focusing heavily on core programming logic while simultaneously exploring the creative freedom of modern web development.</p>
+                    <p class="highlight-text">"Every master was once a beginner. The goal isn't to be perfect today, but to be better than yesterday."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="skills section reveal">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <p class="section-subtitle">Everything listed here is beginner-level or currently in progress. I am building confidence through practice, not claiming mastery.</p>
+            <div class="glass-panel skills-panel float-element">
+                <div class="skill-category interactive-hover">
+                    <div class="category-header">
+                        <i class="fas fa-code" aria-hidden="true"></i>
+                        <h3>Web Foundations</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                    </div>
+                    <p class="skill-note">Beginner · Practising page structure, semantic HTML, and responsive CSS styling.</p>
+                </div>
+                <div class="skill-category interactive-hover">
+                    <div class="category-header">
+                        <i class="fab fa-python" aria-hidden="true"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Python — beginner</span>
+                    </div>
+                    <p class="skill-note">Beginner · Building familiarity with Python syntax and programming fundamentals.</p>
+                </div>
+                <div class="skill-category interactive-hover">
+                    <div class="category-header">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <h3>Developer Tools</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">GitHub</span>
+                    </div>
+                    <p class="skill-note">Beginner · Learning version control, repositories, commits, and how to share project code.</p>
+                </div>
+                <div class="skill-category interactive-hover">
+                    <div class="category-header">
+                        <i class="fas fa-route" aria-hidden="true"></i>
+                        <h3>Learning Next</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag tag-upcoming" title="Planned for an upcoming class">Java — upcoming class</span>
+                    </div>
+                    <p class="skill-note">Listed as upcoming, not as a current skill.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- EDUCATION SECTION: NIAT assignment requirement -->
+        <section id="education" class="education section reveal" aria-labelledby="education-title">
+            <h2 class="section-title" id="education-title">Education</h2>
+            <p class="section-subtitle">The academic foundation behind my journey into computer science.</p>
+            <div class="glass-panel education-panel float-element">
+                <div class="education-mark" aria-hidden="true"><i class="fas fa-graduation-cap"></i></div>
+                <div class="education-copy">
+                    <span class="project-tag">Current Education</span>
+                    <h3>B.Tech — Computer Science &amp; Engineering (AI &amp; ML)</h3>
+                    <p class="education-summary">First-year undergraduate student, building a foundation in programming, problem-solving, and software development.</p>
+                    <dl class="education-details">
+                        <div><dt>College / Institution</dt><dd>NIAT</dd></div>
+                        <div><dt>Course / Program</dt><dd>B.Tech, Computer Science &amp; Engineering — Artificial Intelligence &amp; Machine Learning</dd></div>
+                        <div><dt>Current year</dt><dd>First Year</dd></div>
+                        <div><dt>Admission year</dt><dd>2026</dd></div>
+                        <div><dt>Expected graduation</dt><dd>2030</dd></div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION: NIAT assignment requirement -->
+        <section id="projects" class="projects section reveal" aria-labelledby="projects-title">
+            <h2 class="section-title" id="projects-title">Projects &amp; Experiments</h2>
+            <p class="section-subtitle">A record of what I am building, the tools I use, and what each experience is teaching me.</p>
+            <div class="project-grid">
+                <article class="card tilt-element interactive-hover float-1">
+                    <div class="card-inner">
+                        <div class="project-header">
+                            <span class="project-tag">Live Project</span>
+                            <i class="fas fa-window-maximize github-link" aria-hidden="true"></i>
+                        </div>
+                        <h3>Personal Portfolio Website</h3>
+                        <p>A single-page portfolio introducing my background, skills, education, learning goals, and contact details. It uses an animated typing headline, custom cursor, scroll reveals, an aurora background, a moving technology ticker, and 3D-tilting cards.</p>
+                        <p class="project-meta"><strong>Tech used:</strong> HTML5, CSS3, JavaScript</p>
+                        <div class="project-links">
+                            <a class="view-link interactive-hover" href="https://github.com/Yashasvee28" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub profile</a>
+                            <a class="view-link interactive-hover" href="https://yashasvee.niat.tech/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Live demo</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card tilt-element interactive-hover float-2">
+                    <div class="card-inner">
+                        <div class="project-header">
+                            <span class="project-tag">In Progress</span>
+                            <i class="fas fa-cloud github-link" aria-hidden="true"></i>
+                        </div>
+                        <h3>Nimbus</h3>
+                        <p>Nimbus is a project I am developing as part of my learning journey. I will document its specific purpose, implementation decisions, and outcomes here as the project scope is finalised.</p>
+                        <p class="project-meta"><strong>Tech used:</strong> To be confirmed from the project source.</p>
+                        <div class="project-links">
+                            <a class="view-link interactive-hover" href="https://github.com/Yashasvee28" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub profile</a>
+                            <span class="view-link project-unavailable"><i class="fas fa-hourglass-half" aria-hidden="true"></i> Demo not available yet</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <p class="project-note">Project-specific repository links and Nimbus's confirmed technology stack should be added once those details are public and final.</p>
+        </section>
+
+        <!-- LEARNING SECTION: honest, beginner-level roadmap -->
+        <section id="learning" class="learning-section section reveal" aria-labelledby="learning-title">
+            <div class="learning-heading">
+                <span class="learning-eyebrow"><i class="fas fa-compass" aria-hidden="true"></i> MY NEXT ITERATIONS</span>
+                <h2 class="section-title" id="learning-title">Learning, in Progress<span class="learning-period">.</span></h2>
+                <p class="section-subtitle">A real-time snapshot of what I am exploring now, what I am practising, and what comes next.</p>
+            </div>
+
+            <div class="project-grid learning-grid">
+                <article class="card tilt-element interactive-hover float-1 learning-card learning-card-web">
+                    <div class="card-inner">
+                        <div class="project-header">
+                            <span class="project-tag">01 / In practice</span>
+                            <i class="fas fa-layer-group github-link" aria-hidden="true"></i>
+                        </div>
+                        <div class="learning-card-icon" aria-hidden="true"><i class="fas fa-code"></i></div>
+                        <h3>Web Craft</h3>
+                        <p>I am learning how HTML gives a page structure and how CSS turns that structure into a clear, responsive experience.</p>
+                        <div class="learning-tags" aria-label="Technologies"><span>HTML</span><span>CSS</span></div>
+                        <div class="learning-status"><span class="learning-status-dot"></span> Beginner · building the basics</div>
+                    </div>
+                </article>
+
+                <article class="card tilt-element interactive-hover float-2 learning-card learning-card-python">
+                    <div class="card-inner">
+                        <div class="project-header">
+                            <span class="project-tag">02 / Exploring</span>
+                            <i class="fab fa-python github-link" aria-hidden="true"></i>
+                        </div>
+                        <div class="learning-card-icon" aria-hidden="true"><i class="fab fa-python"></i></div>
+                        <h3>Python Foundations</h3>
+                        <p>I am developing familiarity with Python and strengthening the programming fundamentals that help me think through problems step by step.</p>
+                        <div class="learning-tags" aria-label="Technology"><span>Python</span><span>Programming logic</span></div>
+                        <div class="learning-status"><span class="learning-status-dot"></span> Beginner · learning by practice</div>
+                    </div>
+                </article>
+
+                <article class="card tilt-element interactive-hover float-3 learning-card learning-card-git">
+                    <div class="card-inner">
+                        <div class="project-header">
+                            <span class="project-tag">03 / Building habits</span>
+                            <i class="fab fa-github github-link" aria-hidden="true"></i>
+                        </div>
+                        <div class="learning-card-icon" aria-hidden="true"><i class="fas fa-code-branch"></i></div>
+                        <h3>Version Control</h3>
+                        <p>I am learning how Git and GitHub help track changes, organise repositories, and share my work as projects evolve.</p>
+                        <div class="learning-tags" aria-label="Tools"><span>Git</span><span>GitHub</span></div>
+                        <div class="learning-status"><span class="learning-status-dot"></span> Beginner · building confidence</div>
+                    </div>
+                </article>
+            </div>
+
+            <aside class="learning-next glass-panel" aria-label="Upcoming learning">
+                <div class="learning-next-mark" aria-hidden="true"><i class="fas fa-arrow-trend-up"></i></div>
+                <div class="learning-next-copy">
+                    <span class="learning-next-label">ON THE HORIZON</span>
+                    <h3>Java <span>· Upcoming class</span></h3>
+                    <p>Next on my learning path. It is marked as upcoming, not as a current skill.</p>
+                </div>
+                <span class="learning-next-badge"><i class="fas fa-hourglass-half" aria-hidden="true"></i> Coming next</span>
+            </aside>
+        </section>
+
+
+        <!-- CERTIFICATE SECTION: uploaded Internal Smart India Hackathon certificate -->
+        <section id="certificates" class="certificates section reveal" aria-labelledby="certificates-title">
+            <h2 class="section-title" id="certificates-title">Certificates &amp; Activities</h2>
+            <p class="section-subtitle">A record of participation and learning experiences beyond the classroom.</p>
+            <article class="glass-panel certificate-panel">
+                <a class="certificate-preview interactive-hover" href="assets/sih-participation-certificate.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open Internal Smart India Hackathon 2026 certificate PDF">
+                    <img src="assets/sih-certificate-preview.jpg" alt="Preview of Yashasvee Patel's Certificate of Appreciation for participating in Internal Smart India Hackathon 2026 at Geeta University." loading="lazy">
+                    <span class="certificate-open"><i class="fas fa-up-right-from-square" aria-hidden="true"></i> View certificate</span>
+                </a>
+                <div class="certificate-copy">
+                    <span class="project-tag">Participation · 2026</span>
+                    <h3>Internal Smart India Hackathon 2026</h3>
+                    <p class="certificate-organizer">Geeta University</p>
+                    <p>Certificate of Appreciation for participating in the university's Internal Smart India Hackathon 2026.</p>
+                    <dl class="certificate-details">
+                        <div><dt>Role listed</dt><dd>UI Designer</dd></div>
+                        <div><dt>Program</dt><dd>B.Tech CSE AIML · Year 1 · Semester 1 · Section D</dd></div>
+                        <div><dt>Certificate date</dt><dd>08-10-2026</dd></div>
+                        <div><dt>Certificate no.</dt><dd>GU/ISH/2026/207</dd></div>
+                    </dl>
+                    <a class="btn btn-primary interactive-hover certificate-button" href="assets/sih-participation-certificate.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf" aria-hidden="true"></i> Open certificate PDF</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact section reveal">
+            <div class="glass-panel text-center contact-panel float-element interactive-hover">
+                <h2 class="section-title">Let's Connect</h2>
+                <p>I am actively seeking study groups, open-source beginner communities, and mentorship opportunities. If you want to collaborate or just say hi, my inbox is always open.</p>
+
+                <div class="contact-actions">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yashasveepatel28@gmail.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary interactive-hover">
+                        <i class="fas fa-paper-plane"></i> Initiate Contact
+                    </a>
+
+                    <div class="social-links-bottom">
+                        <a href="https://github.com/Yashasvee28" target="_blank" rel="noopener noreferrer" class="social-icon interactive-hover"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/yashasvee-patel-117b9a42b/" target="_blank" rel="noopener noreferrer" class="social-icon interactive-hover"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <p>"Syntax is temporary, logic is permanent."</p>
+        <div class="footer-links" aria-label="Social and contact links">
+            <a href="https://github.com/Yashasvee28" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/yashasvee-patel-117b9a42b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:yashasveepatel28@gmail.com">Email</a>
+            <a href="#hero">Back to top <i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+        </div>
+        <p class="copyright">&copy; <span id="current-year">2026</span> Yashasvee Patel. Beginning the journey.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
