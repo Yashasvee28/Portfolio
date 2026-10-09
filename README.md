@@ -2,7 +2,7 @@
 
 A single-page portfolio website built with HTML, CSS and JavaScript by Yashasvee Patel.
 
-**Live site:** https://yashasvee-patel.niat.tech
+**Live site:** https://yashasvee.niat.tech/
 **Resume:** link or file name
 
 ## What's inside
@@ -18,4 +18,4 @@ A single-page portfolio website built with HTML, CSS and JavaScript by Yashasvee
 ![Portfolio screenshot](images/screenshot.png)
 
 ## What I learned
-Write 2 or 3 lines in your own words.
+How to make a portfolio.
