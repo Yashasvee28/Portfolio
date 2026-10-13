@@ -15,8 +15,8 @@ A single-page portfolio website built with HTML, CSS and JavaScript by Yashasvee
 2. Open index.html in your browser
 
 ## Screenshot
-![Portfolio screenshot](screencapture-yashasvee-niat-tech-2026-10-10-04_59_01.png
+![Portfolio screenshot](yashasvee.niat.tech_.png
 )
 
 ## What I learned
-How to make a portfolio.
+In this project, I learned how to structure a webpage using HTML and style it with CSS.
